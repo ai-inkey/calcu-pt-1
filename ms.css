@@ -1,0 +1,87 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(90.jpeg);
+}
+#container{
+    width:1000px;
+    height:500px;
+    margin: 20px auto;
+
+}
+#calculator{
+    width:320px;
+    height:500px;
+    background-color: 
+    #3c453e
+    ;
+    top:20px;
+    position:relative;
+    border-radius:5px;
+
+
+
+}
+#keyboard{
+   
+    height:400px;
+    
+   
+}
+.operator,.number,.empty{
+    width:50px;
+    height:50px;
+    padding:10px;
+    float:left;
+    border-radius:5px;
+    margin:15px;
+
+    font-weight: bold;
+    font-size:15px;
+    cursor:pointer;
+}
+.operator:active , .number:active{
+    font-size:13px;;
+}
+
+.operator:focus,.number:focus,.empty:focus{
+    outline:0;
+}
+#result
+{
+    height:120px;
+}
+#history{
+    text-align:right;
+    height:120px;
+    margin: 0 20px;
+
+    font-size:30px;
+
+}
+button:nth-child(4){
+    background-color: blueviolet;
+    font-size:20px;
+}
+button:nth-child(8){
+    background-color: rgb(196, 158, 36);
+    font-size:20px;
+}
+button:nth-child(12){
+    background-color: rgb(177, 22, 22);
+    font-size:20px;
+}
+button:nth-child(16){
+    background-color: rgb(43, 61, 226);
+    font-size:20px;
+}
+button:nth-child(20){
+    background-color: rgb(43, 226, 119);
+    font-size:20px;
+}
+
+
+
+
+
+
+
