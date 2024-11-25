@@ -1,0 +1,22 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(sd.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+    h1{text-align: center;
+    color: #0dff0d;;}
+   #pg{background-color: #0dff0d;}
+   #dt{background-color: rgb(255, 127, 127);}
+
+#png{
+    height:100px;
+    border-radius: 50%;
+    color:rgb(19, 165, 250)
+}
+
+
+
+
+
+
+
